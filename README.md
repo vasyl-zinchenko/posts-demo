@@ -1,6 +1,6 @@
 <h2>Posts demo-app</h2>
 
-[DEMO LINK](https://beautiful-halva-25abf9.netlify.app/posts)
+[DEMO LINK](https://beautiful-halva-25abf9.netlify.app)
 
 ---
 
