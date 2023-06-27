@@ -1,0 +1,29 @@
+{
+  "name": "posts",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "pinia": "^2.1.4",
+    "sass": "^1.63.6",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.2",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "pathe": "^1.0.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9",
+    "vue-tsc": "^1.4.2",
+    "eslint": "^8.39.0",
+    "eslint-plugin-vue": "^9.11.0",
+    "@vue/eslint-config-typescript": "^11.0.3",
+    "@rushstack/eslint-patch": "^1.2.0"
+  }
+}

@@ -1,0 +1,160 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+textarea,
+input,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Pathway Extreme", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+
+	position: relative;
+}
+
+
+h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.button {
+  font-size: 14px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.button__save {
+  background-color: #04aa6d;
+  color: white;
+  color: white;
+}
+
+.button__cancel, .button__delete {
+  background-color: #e51d39;
+  color: white;
+  color: white;
+}
+
+.button__edit {
+  background-color: #ffa60086;
+  color: black;
+}
+
+.button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.button:active {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+textarea,
+input {
+  padding: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+}
+
+*:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+*:disabled:hover {
+  box-shadow: none;
+}
