@@ -21,7 +21,7 @@ Here you can:
 
 <img src="https://img001.prntscr.com/file/img001/x51ZwZlVTGyyiTxx-IrudQ.png">
  
-- Watch a chosen post and write a comment
+- View the selected post and write a comment
 <img src="https://img001.prntscr.com/file/img001/Rnd5qbozSaS2kTqsq6TJWg.png">
 
 <h3>Try it Yourself</h3>
@@ -34,3 +34,11 @@ Then open a new terminal and enter:
 1. cd posts-demo
 2. npm i
 3. npm run dev
+
+## <img width=30 src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png">&nbsp;  Run with Docker
+
+- Docker build:
+ <pre>docker build -t your-image-name .</pre>
+
+- Docker run:
+ <pre>docker run -p 8080:80 your-image-name</pre>
